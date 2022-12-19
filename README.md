@@ -9,3 +9,7 @@ Seznam instancí je v souboru [\_data/instances.yml](https://github.com/zoul/mas
 ## Strojově čitelný
 
 Seznam instancí je k mání ve formátu JSON na `/api/instances.json`.
+
+# Návstěvnost
+
+Čísla o návštěvnosti serveru jsou [k dispozici veřejně](https://plausible.io/janmastodon.cz/).
