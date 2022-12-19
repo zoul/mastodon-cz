@@ -12,4 +12,4 @@ Seznam instancí je k mání ve formátu JSON na `/api/instances.json`.
 
 # Návstěvnost
 
-Čísla o návštěvnosti serveru jsou [k dispozici veřejně](https://plausible.io/janmastodon.cz/).
+Čísla o návštěvnosti serveru jsou [k dispozici veřejně](https://plausible.nolog.cz/janmastodon.cz).
