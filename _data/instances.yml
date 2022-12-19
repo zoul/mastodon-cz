@@ -14,3 +14,10 @@
   url: https://boskovice.social
   description: >
     Experimentální sociální síť pro Boskovice a okolí :)
+- name: lgbtcz.social
+  url: https://lgbtcz.social/
+  featured: true
+  description: >
+    Mastodon pro české LGBTQIA+ lidi a spojence (allies).
+    Registrace podléhá schvalování.
+    Naše hodnoty: respekt k druhým a netolerance netolerance.
