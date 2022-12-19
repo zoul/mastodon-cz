@@ -1,1 +1,6 @@
-/* TBD */
+body {
+  max-width: 80ex;
+  margin: auto;
+  margin-bottom: 20vh;
+  padding: 2ex;
+}
