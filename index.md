@@ -60,7 +60,21 @@ obsah, mohou ze dne na den ukončit provoz a podobně.
 
 ## Často kladené otázky
 
-TBD
+**Kdo to platí?**
+
+Mastodon jako takový je něco jako internet – nemá jednoho majitele, nemá ho kdo platit.
+Software, na kterém běží, je [open source](https://github.com/mastodon/mastodon). Provoz
+serverů něco stojí, jejich byznys model je různý – zatím jde nejčastěji o dobrovolnickou
+činnost, takže se nebojte na svém serveru zeptat, jestli můžete někam přispět na provoz.
+
+**Co je fediverse?**
+
+Podobně jako je Mastodon decentralizovaná alternativa Twitteru, existují decentralizované
+alternativy dalších centralizovaných služeb, například [Pixelfed](https://pixelfed.org) je
+alternativa Instagramu a [PeerTube](https://joinpeertube.org) je alternativa YouTube. Tyto
+služby používají stejný protokol [ActivityPub](https://en.wikipedia.org/wiki/ActivityPub)
+(stručně řečeno „mluví podobným jazykem“), takže jsou navzájem do jisté míry kompatibilní
+a tvoří velkou síť, které se říká fediverse (_federated universe_).
 
 ## Odkazy
 
