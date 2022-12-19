@@ -1,4 +1,9 @@
 - name: boskovice.social
   url: https://boskovice.social
+  description: >
+    Experimentální sociální síť pro Boskovice a okolí :)
 - name: mastodonczech.cz
   url: https://mastodonczech.cz
+  description: >
+    Mastodon pro českou komunitu. Provozován společností Internet Info, vydavatelem
+    technologických serverů Lupa.cz, Root.cz, Cnews.cz či PCWorld.cz.

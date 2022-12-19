@@ -12,6 +12,7 @@ layout: default
 
 <div class="instance">
   <h3>{{instance.name}}</h3>
+  <p>{{instance.description}}</p>
 </div>
 
 {% endfor %}
