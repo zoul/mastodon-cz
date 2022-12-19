@@ -1,0 +1,22 @@
+---
+why: Just a dummy comment to make Jekyll process this file
+---
+
+<!DOCTYPE html>
+<html lang="cs">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Mastodon.cz</title>
+  </head>
+  <body>
+    <h1>Mastodon.cz</h1>
+    <h2>České servery</h2>
+    {% for instance in site.data.instances %}
+    <div class="instance">
+      <h3>{{instance.name}}</h3>
+    </div>
+    {% endfor %}
+  </body>
+</html>
