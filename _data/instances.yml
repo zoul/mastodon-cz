@@ -7,3 +7,8 @@
   description: >
     Mastodon pro českou komunitu. Provozován společností Internet Info, vydavatelem
     technologických serverů Lupa.cz, Root.cz, Cnews.cz či PCWorld.cz.
+- name: witter.cz
+  url: https://witter.cz
+  description: >
+    Mastodon pro českou komunitu který provozuje kolektiv NoLog.cz. 
+    Je otevřený každému, kdo chce s respektem k ostatním sdílet, informovat a diskutovat.
