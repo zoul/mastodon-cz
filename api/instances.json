@@ -2,13 +2,4 @@
 why: A dummy comment to make Jekyll process this file
 ---
 
-[
-    {% for instance in site.data.instances %}
-        {
-            "name": {{ instance.name | jsonify }},
-            "url": {{ instance.url | jsonify }},
-            "description": {{ instance.description | jsonify }}
-        }
-        {% if forloop.last == false %},{% endif %}
-    {% endfor %}
-]
+{{ site.data.instances | jsonify }}
