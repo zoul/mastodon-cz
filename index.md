@@ -8,7 +8,9 @@ layout: default
 
 ## České servery
 
-{% for instance in site.data.instances %}
+{% assign instanceCount = site.data.instances | size %}
+{% assign instances = site.data.instances | sample: instanceCount %}
+{% for instance in instances %}
 
 <div class="instance">
   <h3><a href="{{instance.url}}">{{instance.name}}</a></h3>
