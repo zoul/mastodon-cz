@@ -31,7 +31,9 @@ protože Mastodon nemá žádného centrálního vlastníka.
 
 ### Doporučujeme
 
-_(Úvodní text o tom, proč je doporučujeme)_
+Následující servery můžeme doporučit, protože se zavázaly k dodržování některých
+[praktických pravidel](https://joinmastodon.org/covenant), například základnímu
+moderování obsahu, dennímu zálohování nebo dlouhodobé udržitelnosti serveru.
 
 {% for instance in featuredInstances %}
 
@@ -43,6 +45,9 @@ _(Úvodní text o tom, proč je doporučujeme)_
 {% endfor %}
 
 ### Další servery
+
+Na těchto serverech nemusí být nic špatného, ale nemusí například vůbec moderovat
+obsah, mohou ze dne na den ukončit provoz a podobně.
 
 {% for instance in otherInstances %}
 
