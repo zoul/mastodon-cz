@@ -23,4 +23,11 @@ TBD
 
 ## Odkazy
 
-TBD
+{% for post in site.data.posts %}
+
+<div class="post">
+  <h3><a href="{{post.url}}">{{post.title}}</a></h3>
+  <p>{{post.description}}</p>
+</div>
+
+{% endfor %}
