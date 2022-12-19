@@ -1,7 +1,3 @@
----
-why: Just a dummy comment to make Jekyll process this file
----
-
 <!DOCTYPE html>
 <html lang="cs">
   <head>
@@ -11,12 +7,6 @@ why: Just a dummy comment to make Jekyll process this file
     <title>Mastodon.cz</title>
   </head>
   <body>
-    <h1>Mastodon.cz</h1>
-    <h2>České servery</h2>
-    {% for instance in site.data.instances %}
-    <div class="instance">
-      <h3>{{instance.name}}</h3>
-    </div>
-    {% endfor %}
+    {{ content }}
   </body>
 </html>
