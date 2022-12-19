@@ -2,7 +2,7 @@
 layout: default
 ---
 
-# Mastodon.cz
+# Jan Mastodon™
 
 (Úvodní text o tom, co Mastodon je a jak funguje)
 
