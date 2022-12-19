@@ -2,7 +2,7 @@
 layout: default
 ---
 
-# Jan Mastodon™
+# Český průvodce Mastodonem
 
 _(Úvodní text o tom, co Mastodon je a jak funguje)_
 
