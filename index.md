@@ -4,13 +4,40 @@ layout: default
 
 # Jan Mastodon™
 
-(Úvodní text o tom, co Mastodon je a jak funguje)
+_(Úvodní text o tom, co Mastodon je a jak funguje)_
 
 ## České servery
 
+{% assign featuredInstances = site.array %}
+{% assign otherInstances = site.array %}
+
 {% assign instanceCount = site.data.instances | size %}
-{% assign instances = site.data.instances | sample: instanceCount %}
-{% for instance in instances %}
+{% assign randomizedInstances = site.data.instances | sample: instanceCount %}
+
+{% for instance in randomizedInstances %}
+{% if instance.featured %}
+{% assign featuredInstances = featuredInstances | push: instance %}
+{% else %}
+{% assign otherInstances = otherInstances | push: instance %}
+{% endif %}
+{% endfor %}
+
+### Doporučujeme
+
+_(Úvodní text o tom, proč je doporučujeme)_
+
+{% for instance in featuredInstances %}
+
+<div class="instance">
+  <h3><a href="{{instance.url}}">{{instance.name}}</a></h3>
+  <p>{{instance.description}}</p>
+</div>
+
+{% endfor %}
+
+### Další servery
+
+{% for instance in otherInstances %}
 
 <div class="instance">
   <h3><a href="{{instance.url}}">{{instance.name}}</a></h3>
