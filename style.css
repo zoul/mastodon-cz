@@ -3,7 +3,6 @@
 body {
   max-width: 80ex;
   margin: auto;
-  margin-bottom: 20vh;
   padding: 2ex;
   font-family: Roboto, serif;
   line-height: 1.4em;
@@ -20,6 +19,18 @@ h3 {
 h3 {
   font-weight: 400;
   text-transform: uppercase;
+}
+
+footer {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+footer::before {
+  content: " ";
+  display: block;
+  width: 4ex;
+  border-top: 4px solid black;
 }
 
 a:visited {
