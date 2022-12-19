@@ -1,6 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap");
+
 body {
   max-width: 80ex;
   margin: auto;
   margin-bottom: 20vh;
   padding: 2ex;
+  font-family: Roboto, serif;
+  line-height: 1.4em;
+}
+
+h1,
+h2,
+h3 {
+  font-family: Roboto, sans-serif;
+  font-weight: 900;
+}
+
+h3 {
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+a:visited {
+  color: gray;
 }
