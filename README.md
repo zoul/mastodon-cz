@@ -4,7 +4,7 @@ Web běží na [Jekyllovi](https://jekyllrb.com), nasazuje se do [Vercelu](https
 
 ## Chcete přidat?
 
-Seznam instancí je v souboru [\_data/instances.yml](https://github.com/zoul/mastodon-cz/blob/master/_data/instances.yml), upravte ho a pošlete pull request.
+Seznam instancí je v souboru [\_data/instances.yml](https://github.com/zoul/mastodon-cz/blob/master/_data/instances.yml), upravte ho a pošlete pull request. Pokud chcete být mezi doporučovanými instancemi, je potřeba, abyste se zavázali k [dodržování těchto pravidel](https://joinmastodon.org/covenant).
 
 ## Strojově čitelný
 
